@@ -24,7 +24,8 @@ namespace ApiTask.Repositories
         {
             try
             {
-                return await _context.Tasks.ToListAsync();
+                var tasks = await _context.Tasks.ToListAsync();
+                return tasks;
             }
             catch (System.Exception)
             {
@@ -36,7 +37,8 @@ namespace ApiTask.Repositories
         {
             try
             {
-                return await _context.Tasks.FirstOrDefaultAsync(t => t.Id == id);
+                var task = await _context.Tasks.FirstOrDefaultAsync(t => t.Id == id);
+                return task;
             }
             catch (System.Exception)
             {

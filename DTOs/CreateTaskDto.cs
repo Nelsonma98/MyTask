@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components.Web;
+using System.ComponentModel.DataAnnotations;
 
 namespace ApiTask.DTOs
 {
     public class CreateTaskDto
     {
         [Required(ErrorMessage = "Title is required.")]
-        [StringLength(100, ErrorMessage = "The title cannot exceed 100 characters.")]
+        [StringLength(50, ErrorMessage = "The title cannot exceed 100 characters.")]
         public required string Title { get; set; }
 
         [Required(ErrorMessage = "Description is required.")]

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace ApiTask.Models
 {
@@ -16,7 +17,7 @@ namespace ApiTask.Models
         /// The title of the task. This field is required.
         /// </summary>
         [Required(ErrorMessage = "Title is required.")]
-        [StringLength(100, ErrorMessage = "The title cannot exceed 100 characters.")]
+        [StringLength(50, ErrorMessage = "The title cannot exceed 100 characters.")]
         public required string Title { get; set; }
 
         /// <summary>

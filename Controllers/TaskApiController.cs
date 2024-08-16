@@ -24,7 +24,7 @@ namespace ApiTask.Controllers
         [HttpGet]
         public async Task<IActionResult> GetTasks()
         {
-            var tasks = _taskRepository.GetTasks();
+            var tasks = await _taskRepository.GetTasks();
             return Ok(tasks);
         }
 
