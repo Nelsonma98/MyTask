@@ -107,3 +107,4 @@
 /home/spnelson/Documentos/Trabajo/AxisSoft/ApiTask/obj/Debug/net8.0/ApiTask.sourcelink.json
 /home/spnelson/Documentos/Trabajo/AxisSoft/ApiTask/bin/Debug/net8.0/ApiTask.xml
 /home/spnelson/Documentos/Trabajo/AxisSoft/ApiTask/obj/Debug/net8.0/ApiTask.xml
+/home/spnelson/Documentos/Trabajo/AxisSoft/ApiTask/bin/Debug/net8.0/MyTask.postman_collection.json
