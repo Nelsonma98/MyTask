@@ -34,4 +34,4 @@
 
   Este comando compilará y ejecutará la API en el puerto `5215`.
 
-En el proyecto se agregó una colección de Postman para probarlo.
+En el proyecto se agregó una colección de Postman para probarlo. También cuenta con una documentación a través de Swagger que se puede apreciar en http://localhost:5215/index.html
